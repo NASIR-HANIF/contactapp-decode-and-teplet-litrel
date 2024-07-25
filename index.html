@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./comman/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      referrerpolicy="no-referrer"
+    />
+   
+    <!-- bootstrap -->
+    <script src="./comman/js/bootstrap.bundle.min.js"></script>
+
+    <title>contect sign in</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 shadow-lg mt-5 overflow-hidden">
+          <div class="row">
+            <div class="col-md-6 login-form">
+              <div class="active-box l-active" style="opacity: 0; z-index: -1">
+                <h2>sign in</h2>
+                <p>sign in if you have any account</p>
+                <button id="l-active-btn">sign in</button>
+              </div>
+              <br />
+              <br />
+              <h2 class="text-center">SIGN IN</h2>
+              <br />
+              <div class="text-center">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-google"></i>
+              </div>
+              <br />
+
+              <form>
+                <input
+                  type="email"
+                  id="username"
+                  autocomplete="username"
+                  placeholder="username"
+                  class="form-control mb-3"
+                />
+                <input
+                  type="password"
+                  id="password"
+                  autocomplete="current-password"
+                  placeholder="password"
+                  class="form-control"
+                />
+
+                <div align="center">
+                  <a href="#">Forgot password</a>
+                  <br />
+                  <br />
+                  <button class="btn login-btn">sign In</button>
+                </div>
+                <br/>
+                <p id="si-notify"></p>
+              </form>
+              <br /><br />
+            </div>
+            <div class="col-md-6 login-form">
+              <div class="active-box s-active">
+                <h2>sign up</h2>
+                <p>sign up if you have not account</p>
+                <button id="s-active-btn">sign up</button>
+              </div>
+              <br />
+              <br />
+              <h2 class="text-center">SIGN up</h2>
+              <br />
+              <div class="text-center">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-google"></i>
+              </div>
+              <br />
+
+              <form>
+                <input
+                  type="text"
+                  id="f-name"
+                  placeholder="first name"
+                  class="form-control mb-3"
+                />
+                <input
+                  type="text"
+                  id="l-name"
+                  placeholder="last name"
+                  class="form-control"
+                />
+                <br />
+
+                <input
+                  type="email"
+                  id="s-email"
+                  placeholder="username"
+                  class="form-control mb-3"
+                />
+                <input
+                  type="password"
+                  id="s-password"
+                  placeholder="password"
+                  class="form-control"
+                />
+
+                <div align="center">
+                  <br />
+                  <button class="btn sup-btn">sign up</button>
+                </div>
+                <br />
+                <p class="s-notify "></p>
+              </form>
+              <br /><br />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+
+    <script src="./javascript/main.js"></script>
+  </body>
+</html>
